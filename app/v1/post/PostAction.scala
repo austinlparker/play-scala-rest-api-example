@@ -1,7 +1,7 @@
 package v1.post
 
+import io.opentracing.util.GlobalTracer
 import javax.inject.Inject
-
 import play.api.http.HttpVerbs
 import play.api.i18n.{Messages, MessagesApi}
 import play.api.mvc._
